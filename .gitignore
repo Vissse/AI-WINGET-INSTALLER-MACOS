@@ -1,0 +1,21 @@
+# Virtuální prostředí (obrovské, neposílat)
+venv/
+env/
+.venv
+
+# Python cache (zbytečné)
+__pycache__/
+*.pyc
+
+# Nastavení uživatele (obsahuje API klíč, neposílat)
+user_settings.json
+
+# Složky pro tvorbu EXE (neposílat)
+dist/
+build/
+*.spec
+
+# VS Code nastavení (volitelné, obvykle se neposílá)
+.vscode/
+
+.readmeaiignore
